@@ -21,6 +21,7 @@ class PartialParse(object):
         self.sentence = sentence
 
         ### YOUR CODE HERE
+        
         ### END YOUR CODE
 
     def parse_step(self, transition):
