@@ -79,7 +79,7 @@ def sgd(f, x0, step, iterations, postprocessing=None, useSaved=False,
 
     expcost = None
 
-    for iter in xrange(start_iter + 1, iterations + 1):
+    for iter in range(start_iter + 1, iterations + 1):
         # Don't forget to apply the postprocessing after every iteration!
         # You might want to print the progress every few iterations.
 
